@@ -1,0 +1,32 @@
+{
+  "name": "swap-array-g",
+  "version": "1.0.0",
+  "description": "Swap Array Entries by Index",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel index.js --out-file dist/swap-array.js",
+    "test": "mocha test.js --compilers js:babel-register",
+    "bench": "matcha bench.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/targeral/swap-array.git"
+  },
+  "keywords": [
+    "swap"
+  ],
+  "author": "targeral",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/targeral/swap-array/issues"
+  },
+  "homepage": "https://github.com/targeral/swap-array#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "matcha": "^0.7.0",
+    "mocha": "^5.0.5"
+  }
+}
